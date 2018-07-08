@@ -1,0 +1,206 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge David A. \textsc{Galambos}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Current Address:} & 300 N College St, Northfield, MN \\
+\textsc{Permanent Address:} & 418 E Brewster St, Appleton, WI \\
+\textsc{Phone:} & (608) 556-3943\\
+\textsc{email:} & \href{mailto:galambosd@carleton.edu}{galambosd@carleton.edu}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+Expected \textsc{June} 2020 & Bachelor of Arts in \textsc{Biology}, \textbf{Carleton College}, Northfield, MN\\
+&\normalsize \textsc{Gpa}: 3.89/4.0\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Current} & \textsc{Anderson Lab}, Carleton College, Northfield, MN \\
+\textsc{Mar. 2017} & \emph{Research Assistant}\\ 
+& \footnotesize{Designed a metagenomic study to infer syntrophic nutrient cycling relationships at deep-sea vents.}\\
+& \footnotesize{Improved quality of existing metagenomic data.}\\
+& \footnotesize{Presented research progress at bi-weekly lab meetings.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Nov. 2016-}& \textsc{IMPACT} at \textsc{Mayo Clinic}, Rochester, MN\\
+\textsc{Mar. 2017 }  &\emph{Student Researcher}\\
+& \footnotesize{Conducted research of primary literature to elucidate novel hypothesis about impact of obesity and Type 2 diabetes on pancreatic cancer.}\\
+& \footnotesize{Presented proposal at IMPACT Symposium at Mayo Clinic in Rochester, MN.}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Current} & \textsc{BIO125 Lab}, Carleton College \\
+\textsc{Jan. 2018} & \emph{Lab Teaching Assistant}\\ 
+& \footnotesize{Assist with setup and maintenance of lab materials and equipment.}\\
+& \footnotesize{Answer student questions about lab procedures and associated biological concepts.}\\
+& \footnotesize{Grade and provide feedback for notebooks, quizzes and post-laboratory assignments.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Current} & \textsc{Writing Center}, Carleton College\\
+\textsc{Sept. 2017} & \emph{Writing Assistant}\\
+& \footnotesize{Provide individualized one-on-one writing consultations for a first-year seminar of 14 students.}\\
+& \footnotesize{Prepare consultation material and advice consistent with professor's expectations and teaching style.}\\
+& \footnotesize{Offer weekly appointments to general student population.}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LAB TECHNIQUES
+%----------------------------------------------------------------------------------------
+
+\section{Lab Techniques}
+
+\textsc{Wet Lab:} DNA extraction; gel electrophoresis; PCR; optical microscopy; H-NMR, UV-visible, IR spectroscopy; mass spectrometry\\
+\textsc{Computational:} Comprehensive metagenomic pipeline (genome assembly, mapping,
+coverage analysis, annotation, binning), \textsc{RNA-Seq} analysis, sequence alignment, phylogenetic trees\\
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\textsc{Software}: \href{http://www.merenlab.org/software/anvio}{anvi'o}; Word, Excel, PowerPoint; Prezi; Adobe Illustrator; MNova; Endnote \\
+\textsc{Tools}: Git, BLAST, MUSCLE, KEGG, Pfam, RAxML\\
+\textsc{Languages/Packages}: Python (incl. matplotlib, \href{https://seaborn.pydata.org/}{seaborn}), C, Java, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}
+
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Presentations}
+
+\textbf{Galambos, D. A.}; Reveillaud, J.; Anderson, R.E.; Huber, J. A. "Archaeal Metabolic Profiles at Deep-sea Hydrothermal Vents in the Mid-Cayman Rise." \textsc{2017 American Geophysical Union (AGU) Fall Meeting}, December 11-15, \textbf{2017}; New Orleans, LA.\\
+
+\textbf{Galambos, D. A.}; Reveillaud, J.; Anderson, R.E.; Huber, J. A. "Archaeal Metabolic Profiles at Deep-sea Hydrothermal Vents in the Mid-Cayman Rise." \textsc{2017 Carleton College Summer Research Symposium},  October 20, \textbf{2017}; Northfield, MN.\\
+
+Lauriello, A. F.; \textbf{Galambos, D. A.}; Greengo, S. D..; Kennicott, H. R. "Obesity-Induced T-cell Polarization in Pancreatic Cancer Leads to Immunosuppression and Reduces the Efficacy of Immunotherapy." \textsc{2017 Mayo Clinic IMPACT Symposium}, March 18, \textbf{2017}; Rochester, MN.
+
+%----------------------------------------------------------------------------------------
+%	ACTIVITIES 
+%----------------------------------------------------------------------------------------
+
+\section{Activities}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Current} & \textsc{Emergency Department}, Northfield Hospital \& Clinics\\
+\textsc{Oct. 2017} & \emph{Volunteer}\\ 
+& \footnotesize{Clean rooms, restock supplies, and courier lab specimens.}\\
+& \footnotesize{Serve food and drink to patients.}\\
+& \footnotesize{Shadow physicians and nurses.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Current} & \textsc{Northfield Initiative}, Carleton College\\
+\textsc{Oct. 2016} & \emph{Team Member}\\
+& \footnotesize{Lead civic education sessions for voters about structure and function of local government.}\\
+& \footnotesize{Organize mayoral candidate debates.}\\
+& \footnotesize{Maintain \href{https://nofoinitiative.org/}{non-partisan website} with candidate platforms and voter information.}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+Carleton College \textsc{Dean's List} (2017)\\
+\textsc{National Merit Scholar} (2016)\\
+\textsc{National AP Scholar} (2016)\\
+\textsc{Craftsman Shield Award} for Outstanding Senior (Appleton West High School, 2016)
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\textsc{French} (proficient), \textsc{Russian} (fluent), \textsc{Hungarian} (fluent)\\
+
+
+\end{document}
